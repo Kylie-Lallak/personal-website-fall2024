@@ -1,7 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 #hero-section{
     background-color: black;
     height: 100vh;
     width: 100vw;
     margin:0rem;
     padding:0rem;
+    font-family: Inter;
+    color: white;
+}
+
+.blob-outer-container{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    inset: 0;
+    margin: auto;
+    filter: blur(100px);
+}
+.blob-inner-countainer{
+    border-radius: 99999px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width:100vw;
+    height: 100vh;
+    min-width: 1000px;
+    overflow: hidden;
+    background-color: white;
+    transform: scale(0.6);
+}
+.blob{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    inset: 0;
+    margin: auto;
+    background: conic-gradient(from 0deg, purple, blue, pink, orange, red) ;
+    animation: spinBlob 8s linear infinite;
+}
+
+@keyframes spinBlob{
+    0%{
+        transform: rotate(0deg) scale(2);
+    }
+    100%{
+        transform: rotate(1turn) scale(2);
+    }
 }
