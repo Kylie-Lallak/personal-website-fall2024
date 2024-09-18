@@ -7,7 +7,7 @@
     margin:0rem;
     padding:0rem;
     font-family: Inter;
-    color: white;
+   
 }
 
 .blob-outer-container{
@@ -37,8 +37,10 @@
     height: 100vh;
     inset: 0;
     margin: auto;
-    background: conic-gradient(from 0deg, purple, blue, pink, orange, red) ;
-    animation: spinBlob 8s linear infinite;
+    background: conic-gradient(from 0deg, #f4b237, #e65e54, #7d0ad5, #4540f8) ;
+
+    animation: spinBlob 4s linear infinite;
+
 }
 
 @keyframes spinBlob{
@@ -47,5 +49,106 @@
     }
     100%{
         transform: rotate(1turn) scale(2);
+    }
+}
+
+.text-overlay {
+    position: relative;
+    z-index: 1; /* Ensure text is above the background */
+}
+
+.text-overlay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    z-index: -1; /* Place it behind the text */
+}
+
+.hero-text{
+    opacity: 1;
+    z-index: 10;
+    position: relative; /* Make sure it's positioned relative to the blob */
+
+   
+}
+
+.gradient-text {
+    background: linear-gradient(90deg,  #f4b237, #e65e54, #7d0ad5, #4540f8); /* Define your gradient here */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+
+
+
+.btn:link,
+.btn:visited {
+ 
+    text-decoration: none;
+    padding: 15px 90px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: #fff;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
     }
 }
