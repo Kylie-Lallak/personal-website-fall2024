@@ -1,0 +1,10 @@
+#about{
+    height: 200vh;
+}
+
+.gradient-text {
+    background: linear-gradient(90deg,  #f4b237, #e65e54, #7d0ad5, #4540f8); /* Define your gradient here */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}

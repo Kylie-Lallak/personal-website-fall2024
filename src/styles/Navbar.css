@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.navbar {
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px); /* Blur effect */
+    background-color: black;
+
+    z-index: 0;
+
+   
+
+    height: 9vh;
+    width: 99vw;
+    border-radius: 1rem;
+
+
+}
+
+.nav-text {
+    color: white;
+    font-family: Inter;
+}
+
+
+
+
+
+
+.box:before {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(-67deg, #f8acff 0%, #696eff 82% );
+    transform: translate3d(0px, 3px, 0) scale(0.98);
+    filter: blur(9px);
+    opacity: var(0.72);
+    transition: opacity 0.3s;
+    border-radius: inherit;
+}
+
+/* 
+* Prevents issues when the parent creates a 
+* stacking context. (For example, using the transform
+* property )
+*/
+.box::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: inherit;
+    border-radius: inherit;
+}
+        

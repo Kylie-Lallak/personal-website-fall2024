@@ -2,29 +2,31 @@
 
 #hero-section{
     background-color: black;
-    height: 100vh;
-    width: 100vw;
+    height: 110vh;
+    
     margin:0rem;
     padding:0rem;
     font-family: Inter;
+    margin-top: -50rem;
    
 }
 
 .blob-outer-container{
-    position: fixed;
+    position: relative;
     height: 100%;
     width: 100%;
     z-index: 0;
-    inset: 0;
+    overflow: hidden;
+
     margin: auto;
     filter: blur(100px);
 }
 .blob-inner-countainer{
     border-radius: 99999px;
-    position: absolute;
-    inset: 0;
+    position: relative;
+   
     margin: auto;
-    width:100vw;
+  
     height: 100vh;
     min-width: 1000px;
     overflow: hidden;
@@ -35,9 +37,9 @@
     position: absolute;
     width: 100vw;
     height: 100vh;
-    inset: 0;
+  
     margin: auto;
-    background: conic-gradient(from 0deg, #f4b237, #e65e54, #7d0ad5, #4540f8) ;
+    background: conic-gradient(from 0deg, #696eff, #f8acff, #7d0ad5, #4540f8) ;
 
     animation: spinBlob 4s linear infinite;
 
@@ -76,12 +78,7 @@
    
 }
 
-.gradient-text {
-    background: linear-gradient(90deg,  #f4b237, #e65e54, #7d0ad5, #4540f8); /* Define your gradient here */
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-}
+
 
 
 
