@@ -23,7 +23,7 @@ export default function Hero() {
             <h2 className='text-2xl mt-5 sm:text-3xl md:text-5xl'> and I'm an aspiring <span className='font-extrabold text-3xl sm:text-4xl md:text-5xl'>  software developer</span></h2>
 
             <div class="flex justify-center mt-14">
-              <a href="#" class="btn btn-white btn-animate text-xl">See my work</a>
+              <a href="#about" class="btn btn-white btn-animate text-xl">See my work</a>
             </div>
 
           </div>

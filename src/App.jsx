@@ -1,6 +1,7 @@
 import Hero from './components/Hero.jsx';
 import Navbar from './components/Narbar.jsx';
-import About from './components/About.jsx'
+import About from './components/About.jsx';
+import Projects from './components/Projects';
 
 
 function App() {
@@ -9,8 +10,8 @@ function App() {
 
       <Hero />
       <Navbar />
-
       <About />
+      <Projects />
     </>
   );
 }
