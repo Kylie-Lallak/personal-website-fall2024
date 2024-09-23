@@ -1,6 +1,6 @@
 #project-card {
     padding: 2rem;
-    height: 500px;
+    height: 600px;
     min-width: 450px;
 
     overflow: visible;
@@ -29,7 +29,7 @@
 }
 
 .proj-card-img:hover {
-    transform: scale(1.7);
+    transform: scale(1.6);
 }
 
 .proj-card-btn {
