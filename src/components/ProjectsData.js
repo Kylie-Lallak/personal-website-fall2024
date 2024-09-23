@@ -1,6 +1,7 @@
 import UIUX from '../../public/images/uiux.png';
 import Text from '../../public/images/textedit.png';
 import Personal from '../../public/images/personal.png';
+import Photo from '../../public/images/photo.png';
 
 const ProjectsData = [
     {
@@ -26,7 +27,7 @@ const ProjectsData = [
     {
         name: 'Photographer Webpage',
         desc: 'A photographer portfolio mock up website',
-        image: UIUX,
+        image: Photo,
         link: 'https://photographer-personal-website.vercel.app/'
 
     },
