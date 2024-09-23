@@ -1,0 +1,49 @@
+#project-card {
+    padding: 2rem;
+    height: 500px;
+    min-width: 450px;
+
+    overflow: visible;
+
+
+}
+
+.gradient-border {
+    background: linear-gradient(black, black) padding-box,
+        linear-gradient(to right, grey, rgb(27, 27, 27)) border-box;
+
+    border: 1px solid transparent;
+    border-radius: 1rem;
+}
+
+.proj-card-img {
+
+    transition: transform 0.3s ease-in-out;
+
+
+
+
+
+
+}
+
+.proj-card-img:hover {
+    transform: scale(1.7);
+}
+
+.proj-card-btn {
+    background-color: white;
+
+    background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)) padding-box,
+        linear-gradient(to right, rgb(255, 255, 255), rgb(55, 55, 55)) border-box;
+
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    width: 175px;
+    height: 50px;
+    transition: transform 0.1s ease-in;
+}
+
+.proj-card-btn:hover {
+    transform: scale(1.1);
+}

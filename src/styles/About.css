@@ -1,10 +1,18 @@
-#about{
-    height: 100vh;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+#about {
+    padding-bottom: 10vh;
+    padding-top: 6vh;
+    font-family: Inter;
 }
 
-.gradient-text {
-    background: linear-gradient(90deg,  #f4b237, #e65e54, #7d0ad5, #4540f8); /* Define your gradient here */
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+.about-btn {
+    background-color: white;
+    color: #585def;
+    padding: 0.7rem;
+    width: 150px;
+    border-radius: 2rem;
+    font-weight: bold;
+
+
 }
