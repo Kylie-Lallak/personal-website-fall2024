@@ -1,6 +1,4 @@
-#projects {
-    height: 100vh;
-}
+#projects {}
 
 #proj-scroll {
     display: flex;
@@ -24,4 +22,14 @@
     /* Support for non-webkit browsers */
     text-fill-color: transparent;
     /* Fallback in case -webkit-text-fill-color doesn't work */
+}
+
+.git-button {
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+
+.git-button:hover {
+    background-color: black;
 }
