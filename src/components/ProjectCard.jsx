@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/ProjectCard.css'
 import Arrow from '../../public/images/arrow.svg'
 
+
 export default function ProjectCard({ name, desc, image, link }) {
   return (
     <div id='project-card' className=' gradient-border text-white  '>

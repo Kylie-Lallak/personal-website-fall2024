@@ -4,6 +4,7 @@ import About from './components/About.jsx';
 import Projects from './components/Projects';
 
 
+
 function App() {
   return (
     <>
@@ -11,8 +12,8 @@ function App() {
       <Hero />
       <Navbar />
       <About />
-
       <Projects />
+
     </>
   );
 }

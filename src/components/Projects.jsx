@@ -10,7 +10,7 @@ export default function Projects() {
 
             <div id='project-header-text' className=' pt-32'>
                 <h1 className='gradient-text text-center font-bold text-7xl  ' id='project-title'>Projects </h1>
-                <h2 className='text-white text-center  text-lg w-[400px] mx-auto mt-5'  > Here are some of the projects I have developed to enhance my skills as a developer 🚀</h2>
+                <h2 className='text-white text-center  text-lg w-[450px] mx-auto mt-5'  > Here are my projects, listed from newest to oldest. I hope you can see my growth and everything I've learned along the way! 🚀</h2>
                 <a href='https://github.com/Kylie-Lallak' target="_blank">  <button className='text-white flex items-center justify-center gap-2 bg-gray-700 git-button mx-auto mt-3 '> <img src={Git} className='w-[20px] ' />View my Github</button> </a>
 
             </div>

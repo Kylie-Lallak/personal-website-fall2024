@@ -5,7 +5,7 @@ import Photo from '../../public/images/photo.png';
 
 const ProjectsData = [
     {
-        name: 'Mock Up Portfolio',
+        name: 'Design Portfolio',
         desc: 'A mock up website for a UI UX designer',
         image: UIUX,
         link: 'https://webdeisgnkylielallak.vercel.app/'
