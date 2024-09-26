@@ -32,3 +32,9 @@
 .ex-btn:hover {
     background-color: rgb(60, 60, 60);
 }
+
+.ex-ul {
+    list-style-type: disc;
+    /* or square, circle, etc. */
+    color: white
+}
