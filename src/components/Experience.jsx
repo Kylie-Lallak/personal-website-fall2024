@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/Experience.css'
 import LinkedIn from '../../public/images/linkedin.svg'
 import Neuro from '../../public/images/neruo.png'
+import D3C from '../../public/images/d3c.png'
 
 export default function Experience() {
     return (
@@ -48,8 +49,8 @@ export default function Experience() {
 
             <div className='w-[40%] ml-10'>
                 <div className='flex items-center gap-4'>
-                    <img src={Neuro} className='w-[70px]' />
-                    <h1 className='text-white text-4xl font-bold '>Neurotech@Davis</h1>
+                    <img src={D3C} className='w-[79px]' />
+                    <h1 className='text-white text-4xl font-bold '>SafeHer</h1>
 
                 </div>
                 <div className='flex items-center justify-between bg-slate-800'> <h2 className='text-white' >Project Manger</h2> <h3 className='text-gray-600'> June 2024 - Present</h3> </div>
