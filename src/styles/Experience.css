@@ -38,3 +38,16 @@
     /* or square, circle, etc. */
     color: white
 }
+
+.gradient-text-blue {
+    background: linear-gradient(90deg, #7b9dd3, #0748de);
+    /* Define your gradient */
+    -webkit-background-clip: text;
+    /* Clips the background to the text */
+    -webkit-text-fill-color: transparent;
+    /* Makes the text itself transparent */
+    background-clip: text;
+    /* Support for non-webkit browsers */
+    text-fill-color: transparent;
+    /* Fallback in case -webkit-text-fill-color doesn't work */
+}
