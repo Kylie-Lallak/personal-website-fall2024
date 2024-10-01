@@ -4,7 +4,7 @@
 }
 
 .gradient-text {
-    background: linear-gradient(90deg, #ffffff, #2f18e4);
+    background: linear-gradient(90deg, #c1d5e4, #604fe5);
     /* Define your gradient */
     -webkit-background-clip: text;
     /* Clips the background to the text */
@@ -50,4 +50,15 @@
     /* Support for non-webkit browsers */
     text-fill-color: transparent;
     /* Fallback in case -webkit-text-fill-color doesn't work */
+}
+
+.web-link {
+    color: rgb(50, 141, 191);
+
+    text-decoration: underline;
+
+}
+
+.web-link:hover {
+    color: #7090d9
 }
