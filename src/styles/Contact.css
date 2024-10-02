@@ -1,0 +1,28 @@
+.contact-card {
+    background-color: black;
+
+
+    z-index: 30;
+    margin: auto;
+    margin-top: -40rem;
+    opacity: 0.8;
+    border-radius: 2rem;
+
+    border: 0.8px solid;
+    padding: 1rem;
+    color: rgb(104, 103, 103);
+
+}
+
+.contact-social {
+    width: 40px;
+    transition: transform 0.3s ease;
+}
+
+.contact-social:hover {
+    transform: scale(1.2);
+}
+
+.mail-link:hover {
+    color: white;
+}

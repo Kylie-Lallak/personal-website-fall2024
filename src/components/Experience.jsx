@@ -11,10 +11,10 @@ import D3cImg from '../../public/images/d3cimg.png'
 
 export default function Experience() {
     return (
-        <div id='ex-sect' className='mt-16 '>
+        <div id='ex-sect' className='mt-16 mb-40'>
 
-            <div className='mb-20'>
-                <h1 className='font-bold text-center text-white text-5xl md:text-7xl gradient-text'>Experience</h1>
+            <div className='mb-20 mx-10'>
+                <h1 className='font-bold mx-auto text-center text-white text-5xl md:text-7xl gradient-text'>Experience</h1>
                 <h2 className='text-white text-center   max-w-[450px] mx-auto mt-5'  > Here is an overview of my experience. I am always eager to learn and grow, and I'm currently seeking new opportunities to expand my skills  🌱</h2>
 
                 <div className='flex items-center justify-center gap-3 mt-7'>
@@ -40,9 +40,8 @@ export default function Experience() {
                         <div className='flex items-center justify-between mt-4'> <h2 className='font-bold gradient-text-blue text-xl' >Project Manger</h2> <h3 className='text-gray-600'> June 2024 - Present</h3> </div>
 
                         <ul className='ex-ul ml-10'>
-                            <li>Led a cross-functional team of 2 developers and 1 designer in the development, design, and deployment of the organization's website. Successfully coordinated efforts to meet tight deadlines, ensuring a seamless user experience for over 100 members.</li>
-                            <li>Devloped using React.js Javascript, CSS, Tailwind CSS</li>
-                            <a href='https://neurotechdavis.com' target='_blank'>  <li className='web-link'>Vist the website</li> </a>
+                            <li>Led a cross-functional team of 3 to develop, design, and deploy the organization's website, meeting tight deadlines and delivering a seamless user experience for 100+ members.</li>
+                            <a href='https://neurotechdavis.com' target='_blank'>  <li className='web-link'>Vist the website 💙</li> </a>
                         </ul>
 
 
@@ -65,9 +64,7 @@ export default function Experience() {
                         <div className='flex items-center justify-between mt-4'> <h2 className='font-bold gradient-text-blue text-xl' >Project Member</h2> <h3 className='text-gray-600'> Oct 2023 - June 2024</h3> </div>
 
                         <ul className='ex-ul ml-10'>
-                            <li>Contributed to a cross-functional team developing a brain-computer interface (BCI) for detecting eye blinks through EEG signals</li>
-                            <li>Collected EMG and EEG data from electrodes placed on the frontal cortex and near the eyes, then implemented a real-time machine learning algorithm using a random forest classifier, achieving 86% accuracy in distinguishing intentional and unintentional blinks</li>
-                            <li>Presented at the California 2024 NeurotechX Conference, demonstrating the potential of neural signal-controlled devices, such as prosthetic limbs, and highlighting advancements in accessibility and assistive technology</li>
+                            <li>Contributed to the development of a brain-computer interface that detected eye blinks via EEG signals, collecting EMG/EEG data and implementing a real-time random forest classifier with 86% accuracy; presented at the 2024 NeurotechX Conference, showcasing neural signal-controlled devices and advancements in assistive technology.</li>
                         </ul>
 
 
@@ -92,12 +89,11 @@ export default function Experience() {
                             <h1 className='text-white text-4xl font-bold '>SafeHer</h1>
 
                         </div>
-                        <div className='flex items-center justify-between mt-4'> <h2 className='font-bold gradient-text-blue text-xl' >Project Manger</h2> <h3 className='text-gray-600'> April 2024 - Present</h3> </div>
+                        <div className='flex items-center justify-between mt-4'> <h2 className='font-bold gradient-text-blue text-xl' >Web Developer</h2> <h3 className='text-gray-600'> April 2024 - Present</h3> </div>
 
                         <ul className='ex-ul ml-10'>
-                            <li>Contributed to a Website called SafeHer, focused on promoting educational resources and spreading awareness about women's issues, making key information and resources more accessible</li>
-                            <li>Worked on developing the resource and data visualization components of the website using React, HTML, CSS, and JavaScript</li>
-                            <li>Collaborated effectively with a cross-functional team of 5 developers and 2 designers, contributing to the development of key features and ensuring cohesive design and functionality throughout the project</li>
+                            <li>
+                                Contributed to the development of SafeHer, a website promoting educational resources and raising awareness about women's issues, with a focus on making key information more accessible. Collaborated with a cross-functional team to develop resource and data visualization components, ensuring cohesive design and functionality.</li>
                             <li>Website currently under maintance ⚒️</li>
                         </ul>
 
