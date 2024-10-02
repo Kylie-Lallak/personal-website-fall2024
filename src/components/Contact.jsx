@@ -9,11 +9,11 @@ import linkedin from '../../public/images/linkedin.svg'
 
 export default function Contact() {
     return (
-        <div className=''>
+        <div id='contact-sect' className='pt-20'>
 
-            <div className='flex flex-col justify-center items-center gap-2 z-10 lg:-mb-20 '>
+            <div className='flex flex-col justify-center items-center gap-2 -mb-10 lg:-mb-28 ' >
 
-                <h1 className='text-5xl text-white font-bold text-center md:text-7xl '>
+                <h1 className='text-5xl text-white font-bold text-center md:text-7xl ' >
                     Lets Connect
                 </h1>
                 <p className='text-center text-gray-300 max-w-[260px]'>Feel free to reach out—I'm always open for a chat or to explore new opportunities 😊</p>
@@ -21,7 +21,7 @@ export default function Contact() {
             </div>
 
 
-            <div className='-z-20'>
+            <div className='-z-50'>
 
                 <div className='blob-outer-container'>
                     <div className='blob-inner-countainer'>

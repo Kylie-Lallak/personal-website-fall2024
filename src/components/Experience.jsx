@@ -11,7 +11,7 @@ import D3cImg from '../../public/images/d3cimg.png'
 
 export default function Experience() {
     return (
-        <div id='ex-sect' className='mt-16 mb-40'>
+        <div id='ex-sect' className='mt-16 mb-16'>
 
             <div className='mb-20 mx-10'>
                 <h1 className='font-bold mx-auto text-center text-white text-5xl md:text-7xl gradient-text'>Experience</h1>

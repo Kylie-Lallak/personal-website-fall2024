@@ -14,8 +14,8 @@ export default function ProjectCard({ name, desc, image, link }) {
 
       </div>
 
-      <div className='h-[50%] '>
-        <img src={image} className='proj-card-img h-[100%] scale-150' />
+      <div className=' '>
+        <img src={image} className='proj-card-img  ' />
 
       </div>
 
