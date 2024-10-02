@@ -39,7 +39,7 @@ export default function Experience() {
                         </div>
                         <div className='flex items-center justify-between mt-4'> <h2 className='font-bold gradient-text-blue text-xl' >Project Manger</h2> <h3 className='text-gray-600'> June 2024 - Present</h3> </div>
 
-                        <ul className='ex-ul ml-10'>
+                        <ul className='ex-ul ml-10 text-gray-400'>
                             <li>Led a cross-functional team of 3 to develop, design, and deploy the organization's website, meeting tight deadlines and delivering a seamless user experience for 100+ members.</li>
                             <a href='https://neurotechdavis.com' target='_blank'>  <li className='web-link'>Vist the website 💙</li> </a>
                         </ul>
@@ -63,7 +63,7 @@ export default function Experience() {
 
                         <div className='flex items-center justify-between mt-4'> <h2 className='font-bold gradient-text-blue text-xl' >Project Member</h2> <h3 className='text-gray-600'> Oct 2023 - June 2024</h3> </div>
 
-                        <ul className='ex-ul ml-10'>
+                        <ul className='ex-ul ml-10 text-gray-400'>
                             <li>Contributed to the development of a brain-computer interface that detected eye blinks via EEG signals, collecting EMG/EEG data and implementing a real-time random forest classifier with 86% accuracy; presented at the 2024 NeurotechX Conference, showcasing neural signal-controlled devices and advancements in assistive technology.</li>
                         </ul>
 
@@ -91,9 +91,9 @@ export default function Experience() {
                         </div>
                         <div className='flex items-center justify-between mt-4'> <h2 className='font-bold gradient-text-blue text-xl' >Web Developer</h2> <h3 className='text-gray-600'> April 2024 - Present</h3> </div>
 
-                        <ul className='ex-ul ml-10'>
+                        <ul className='ex-ul ml-10 text-gray-400'>
                             <li>
-                                Contributed to the development of SafeHer, a website promoting educational resources and raising awareness about women's issues, with a focus on making key information more accessible. Collaborated with a cross-functional team to develop resource and data visualization components, ensuring cohesive design and functionality.</li>
+                                Contributed to the development of SafeHer, a website promoting women's issues and making educational resources more accessible. Collaborated with a cross-functional team to create resource and data visualization components, ensuring cohesive design and functionality.</li>
                             <li>Website currently under maintance ⚒️</li>
                         </ul>
 

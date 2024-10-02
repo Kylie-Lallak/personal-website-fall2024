@@ -55,7 +55,7 @@ export default function Contact() {
 
                 </div>
 
-                <div className='flex items-center justify-center gap-5 mt-10 mb-10'>
+                <div className='flex items-center justify-center gap-5 mt-10 mb-5'>
                     <a href='https://www.linkedin.com/in/kylie-lallak/' target='_blank'><img src={linkedin} className='contact-social' /></a>
                     <a href='https://github.com/Kylie-Lallak' target='_blank'> <img src={Git} className='contact-social' /></a>
                 </div>
