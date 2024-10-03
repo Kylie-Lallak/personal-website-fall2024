@@ -7,9 +7,9 @@ import Work from '../../public/images/work.svg'
 
 export default function Projects() {
     return (
-        <div id='projects' className=''>
+        <div  >
 
-            <div id='project-header-text' className=' pt-32'>
+            <div id='projects' className=' pt-32'>
                 <h1 className='gradient-text text-center font-bold text-7xl  ' id='project-title'>Projects </h1>
                 <h2 className='text-white text-center  text-lg w-[450px] mx-auto mt-5'  > Here are my projects, listed from newest to oldest. I hope you can see my growth and everything I've learned along the way! 🚀</h2>
                 <div className='flex justify-center gap-4'>

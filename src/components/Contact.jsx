@@ -9,7 +9,7 @@ import linkedin from '../../public/images/linkedin.svg'
 
 export default function Contact() {
     return (
-        <div id='contact-sect' className='pt-20'>
+        <div id='contact' className='pt-20'>
 
             <div className='flex flex-col justify-center items-center gap-2 -mb-10 lg:-mb-28 ' >
 

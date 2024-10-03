@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-#hero-section{
+#home {
     background-color: black;
     height: 110vh;
-    
-    margin:0rem;
-    padding:0rem;
+
+    margin: 0rem;
+    padding: 0rem;
     font-family: Inter;
     margin-top: -50rem;
-   
+
 }
 
-.blob-outer-container{
+.blob-outer-container {
     position: relative;
     height: 100%;
     width: 100%;
@@ -21,42 +21,46 @@
     margin: auto;
     filter: blur(100px);
 }
-.blob-inner-countainer{
+
+.blob-inner-countainer {
     border-radius: 99999px;
     position: relative;
-   
+
     margin: auto;
-  
+
     height: 100vh;
     min-width: 1000px;
     overflow: hidden;
     background-color: white;
     transform: scale(0.6);
 }
-.blob{
+
+.blob {
     position: absolute;
     width: 100vw;
     height: 100vh;
-  
+
     margin: auto;
-    background: conic-gradient(from 0deg, #696eff, #f8acff, #7d0ad5, #4540f8) ;
+    background: conic-gradient(from 0deg, #696eff, #f8acff, #7d0ad5, #4540f8);
 
     animation: spinBlob 4s linear infinite;
 
 }
 
-@keyframes spinBlob{
-    0%{
+@keyframes spinBlob {
+    0% {
         transform: rotate(0deg) scale(2);
     }
-    100%{
+
+    100% {
         transform: rotate(1turn) scale(2);
     }
 }
 
 .text-overlay {
     position: relative;
-    z-index: 1; /* Ensure text is above the background */
+    z-index: 1;
+    /* Ensure text is above the background */
 }
 
 .text-overlay::before {
@@ -66,16 +70,19 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
-    z-index: -1; /* Place it behind the text */
+    background: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent black */
+    z-index: -1;
+    /* Place it behind the text */
 }
 
-.hero-text{
+.hero-text {
     opacity: 1;
     z-index: 10;
-    position: relative; /* Make sure it's positioned relative to the blob */
+    position: relative;
+    /* Make sure it's positioned relative to the blob */
 
-   
+
 }
 
 
@@ -85,7 +92,7 @@
 
 .btn:link,
 .btn:visited {
- 
+
     text-decoration: none;
     padding: 15px 90px;
     display: inline-block;

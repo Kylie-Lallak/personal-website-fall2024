@@ -26,13 +26,13 @@ export default function Navbar() {
             id="links"
             className="items-center justify-end ml-auto font-[410] hidden text-base lg:flex gap-20 text-white"
           >
-            <a href="#hero-section" className="">
+            <a href="#home">
               Home
             </a>
             <a href="#about">About</a>
-            <a href="#project-header-text">Projects</a>
-            <a href="#ex-sect">Experince</a>
-            <a href="#contact-sect">Contact</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience"</a>
+            <a href="#contact">Contact</a>
           </div>
           {/* mobile */}
           <div className="flex gap-4">
@@ -52,11 +52,15 @@ export default function Navbar() {
       >
         <div className="px-8 my-3">
           <div className="flex flex-col gap-8 font-[450] tracking-wider items-center text-lg text-white">
-            <a href="../" className="">
+
+            <a href="#home">
               Home
             </a>
-            <a href="../about">About</a>
-            <a href="../joinus">Join Us</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience"</a>
+            <a href="#contact">Contact</a>
+
           </div>
         </div>
       </div>

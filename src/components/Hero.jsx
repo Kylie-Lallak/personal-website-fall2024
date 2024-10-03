@@ -14,7 +14,7 @@ export default function Hero() {
 
       </div>
 
-      <div id='hero-section'>
+      <div id='home'>
 
 
         <div className=' mx-10 flex justify-center items-center text-white h-[100vh] hero-text '>
