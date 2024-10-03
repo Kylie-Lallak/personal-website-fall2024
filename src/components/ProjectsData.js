@@ -2,6 +2,7 @@ import UIUX from '../../public/images/uiux.png';
 import Text from '../../public/images/textedit.png';
 import Personal from '../../public/images/personal.png';
 import Photo from '../../public/images/photo.png';
+import First from '../../public/images/first.png'
 
 const ProjectsData = [
     {
@@ -19,14 +20,7 @@ const ProjectsData = [
         link: 'https://kylie-lallak-personal-website.vercel.app/'
 
     },
-    {
-        key: 3,
-        name: 'Text Editor',
-        desc: 'A console based text file editor',
-        image: Text,
-        link: 'https://github.com/Kylie-Lallak/text-editor'
 
-    },
     {
         key: 4,
         name: 'Photographer Webpage',
@@ -36,10 +30,18 @@ const ProjectsData = [
 
     },
     {
+        key: 3,
+        name: 'Text Editor',
+        desc: 'A console based text file editor',
+        image: Text,
+        link: 'https://github.com/Kylie-Lallak/text-editor'
+
+    },
+    {
         key: 5,
         name: 'Company Website',
         desc: 'My first frist ever website',
-        image: UIUX,
+        image: First,
         link: 'https://fake-company-career-site.vercel.app/'
 
     }
