@@ -4,7 +4,7 @@
 }
 
 .gradient-text {
-    background: linear-gradient(90deg, #c1d5e4, #604fe5);
+    background: linear-gradient(#d6b2ea, #5b29c0);
     /* Define your gradient */
     -webkit-background-clip: text;
     /* Clips the background to the text */

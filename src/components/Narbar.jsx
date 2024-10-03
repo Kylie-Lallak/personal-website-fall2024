@@ -15,7 +15,7 @@ export default function Navbar() {
             {/* logo */}
             <a
 
-              className="flex gap-1 font-bold text-4xl items-center text-white"
+              className="flex gap-1 font-bold text-3xl items-center text-white"
             >
 
               Kylie.
