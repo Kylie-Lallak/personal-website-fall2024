@@ -7,6 +7,7 @@ import IMG from '../../public/images/about.png'
 import Neuroweb from '../../public/images/neuroweb.png'
 import Bci from '../../public/images/bci.png'
 import D3cImg from '../../public/images/d3cimg.png'
+import Resume from '../../public/images/resumeicon.svg'
 
 
 export default function Experience() {
@@ -18,8 +19,8 @@ export default function Experience() {
                 <h2 className='text-white text-center   max-w-[450px] mx-auto mt-5'  > Here is an overview of my experience. I am always eager to learn and grow, and I'm currently seeking new opportunities to expand my skills  🌱</h2>
 
                 <div className='flex items-center justify-center gap-3 mt-7'>
-                    <a className='ex-btn '> <img src={LinkedIn} className='max-w-[25px]' />  View my LinkedIn</a>
-                    <a className='ex-btn '> <img src={LinkedIn} className='max-w-[25px]' />  View my Resumé</a>
+                    <a className='ex-btn ' href='https://www.linkedin.com/in/kylie-lallak/' target='_blank'> <img src={LinkedIn} className='max-w-[25px]' />  View my LinkedIn</a>
+                    <a className='ex-btn ' href='https://docs.google.com/document/d/1aaoQ6NoRA_d8LWe_vG59l1WNP-m0O3R-U9lpKGseLXA/edit?usp=sharing' target='_blank'> <img src={Resume} className='max-w-[25px]' />  View my Resumé</a>
 
 
                 </div>

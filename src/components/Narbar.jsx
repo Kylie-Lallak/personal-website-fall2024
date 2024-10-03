@@ -26,12 +26,10 @@ export default function Navbar() {
             id="links"
             className="items-center justify-end ml-auto font-[410] hidden text-base lg:flex gap-20 text-white"
           >
-            <a href="#home">
-              Home
-            </a>
+            <a href="#home"> Home</a>
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
-            <a href="#experience">Experience"</a>
+            <a href="#experience">Experience</a>
             <a href="#contact">Contact</a>
           </div>
           {/* mobile */}
@@ -58,7 +56,7 @@ export default function Navbar() {
             </a>
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
-            <a href="#experience">Experience"</a>
+            <a href="#experience">Experience</a>
             <a href="#contact">Contact</a>
 
           </div>
