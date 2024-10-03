@@ -5,12 +5,14 @@ import Photo from '../../public/images/photo.png';
 
 const ProjectsData = [
     {
+        key: 1,
         name: 'Design Portfolio',
         desc: 'A mock up website for a UI UX designer',
         image: UIUX,
         link: 'https://webdeisgnkylielallak.vercel.app/'
     },
     {
+        key: 2,
         name: 'Old Personal Website',
         desc: 'My first personal website ',
         image: Personal,
@@ -18,6 +20,7 @@ const ProjectsData = [
 
     },
     {
+        key: 3,
         name: 'Text Editor',
         desc: 'A console based text file editor',
         image: Text,
@@ -25,6 +28,7 @@ const ProjectsData = [
 
     },
     {
+        key: 4,
         name: 'Photographer Webpage',
         desc: 'A photographer portfolio mock up website',
         image: Photo,
@@ -32,6 +36,7 @@ const ProjectsData = [
 
     },
     {
+        key: 5,
         name: 'Company Website',
         desc: 'My first frist ever website',
         image: UIUX,
