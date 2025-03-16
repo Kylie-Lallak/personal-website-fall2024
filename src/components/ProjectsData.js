@@ -3,17 +3,25 @@ import Text from '../../public/images/textedit.png';
 import Personal from '../../public/images/personal.png';
 import Photo from '../../public/images/photo.png';
 import First from '../../public/images/first.png'
+import NTech from '../../public/images/ntech.png';
 
 const ProjectsData = [
     {
         key: 1,
+        name: 'Student Org Website',
+        desc: 'The website I build for NeuroTech@Davis',
+        image: NTech,
+        link: 'https://neurotechdavis.com/'
+    },
+    {
+        key: 2,
         name: 'Design Portfolio',
         desc: 'A mock up website for a UI UX designer',
         image: UIUX,
         link: 'https://webdeisgnkylielallak.vercel.app/'
     },
     {
-        key: 2,
+        key: 3,
         name: 'Old Personal Website',
         desc: 'My first personal website ',
         image: Personal,
@@ -30,7 +38,7 @@ const ProjectsData = [
 
     },
     {
-        key: 3,
+        key: 5,
         name: 'Text Editor',
         desc: 'A console based text file editor',
         image: Text,
@@ -38,7 +46,7 @@ const ProjectsData = [
 
     },
     {
-        key: 5,
+        key: 6,
         name: 'Company Website',
         desc: 'My first frist ever website',
         image: First,
