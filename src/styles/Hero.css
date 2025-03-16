@@ -19,7 +19,8 @@
     overflow: hidden;
 
     margin: auto;
-    filter: blur(100px);
+    filter: blur(45px);
+    will-change: transform;
 }
 
 .blob-inner-countainer {
@@ -31,19 +32,21 @@
     height: 100vh;
     min-width: 1000px;
     overflow: hidden;
-    background-color: white;
+    background-color: #140520;
     transform: scale(0.6);
+    will-change: transform;
 }
 
 .blob {
     position: absolute;
-    width: 100vw;
-    height: 100vh;
+    width: 75vw;
+    height: 50vh;
 
     margin: auto;
-    background: conic-gradient(from 0deg, #696eff, #f8acff, #7d0ad5, #4540f8);
+    background: conic-gradient(from 0deg, #696eff, #942c9c, #7d0ad5, #4540f8);
 
-    animation: spinBlob 4s linear infinite;
+    animation: spinBlob 10s linear infinite;
+    will-change: transform;
 
 }
 
@@ -87,9 +90,6 @@
 
 
 
-
-
-
 .btn:link,
 .btn:visited {
 
@@ -97,7 +97,7 @@
     padding: 15px 90px;
     display: inline-block;
     border-radius: 100px;
-    transition: all .2s;
+    transition: all 1s;
     position: absolute;
 }
 
@@ -141,7 +141,7 @@
 }
 
 .btn-animated {
-    animation: moveInBottom 5s ease-out;
+    animation: moveInBottom 10s ease-in;
     animation-fill-mode: backwards;
 }
 
