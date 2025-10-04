@@ -8,6 +8,10 @@ import Neuroweb from '../../public/images/neuroweb.png'
 import Bci from '../../public/images/bci.png'
 import D3cImg from '../../public/images/d3cimg.png'
 import Resume from '../../public/images/resumeicon.svg'
+import CLA from '../../public/images/CLA.png'
+import CLALife from '../../public/images/CLAlife.png'
+import IncludeLogo from '../../public/images/IncludeLogo.png'
+import IncludeDemo from '../../public/images/IncludeDemo.png'
 
 
 export default function Experience() {
@@ -26,6 +30,68 @@ export default function Experience() {
                 </div>
             </div>
 
+            <div id='CLA-ex' className='mb-14'>
+                <div className=' flex flex-col items-center mx-auto gap-10 w-[80%]  md:flex-row '>
+
+                    <div className='md:w-[50%]'>
+
+                        <div className='flex items-center gap-4'>
+                            <img src={CLA} className='w-[150px] -ml-10  -mr-10' />
+                            <h1 className='text-white  text-2xl sm:text-4xl font-bold -mr-36'>Cliffton Larson & Allen (CLA)</h1>
+                        </div>
+                        <div className='flex items-center justify-between mt-4'> <h2 className='font-bold gradient-text-blue text-xl' >SWE Intern</h2> <h3 className='text-gray-600'> June 2025 - Sept 2025</h3> </div>
+
+                        <ul className='ex-ul ml-10 text-gray-400'>
+                            <li>Contributed to a production-level B2B platform used by accounting, assurance, and tax associates to manage project scheduling and team assignments</li>
+                            <li>Developed full-stack features across APIs, UI components, and databases to support resource management and workflow automation</li>
+                            <li>Built tools for tracking employee availability, PTO, and project roles to streamline team coordination</li>
+
+                        </ul>
+
+                    </div>
+
+                    <img src={CLALife} className='md:w-[35%] md:ml-14 md:h-[50%] ' />
+
+                </div>
+
+          
+            </div>
+
+
+            <div className=" ml-16 mr-16 mt-28 h-px bg-gray-700 my-4 sm:ml-24 sm:mr-24"></div>
+
+
+            <div id='include-ex' className='mb-14'>
+                <div className=' flex flex-col items-center mx-auto gap-10 w-[80%]  md:flex-row '>
+
+                    <div className='md:w-[50%]'>
+
+                        <div className='flex items-center gap-4'>
+                            <img src={IncludeLogo} className='w-[80px] rounded-full' />
+                            <h1 className='text-white  text-2xl sm:text-4xl font-bold '>#Include</h1>
+                        </div>
+                        <div className='flex items-center justify-between mt-4'> <h2 className='font-bold gradient-text-blue text-xl' >Fullstack Devloper</h2> <h3 className='text-gray-600'> Oct 2024 - May 2025</h3> </div>
+
+                        <ul className='ex-ul ml-10 text-gray-400'>
+                            <li>Worked with a team to build a full-stack e-commerce demo platform for clients </li>
+                            <li>Integrated Auth.js for secure user authentication and session management</li>
+                            <li>Built out front-end product pages where users can view items, choose parameters, and add them to their cart</li>
+                            <li>Implemented features like automatic discount application and protected displays for authentated users</li>
+                            <li>Used Next.js, GraphQL, Prisma, and PostgreSQL to handle data and backend operations</li>
+                    
+                        </ul>
+
+                    </div>
+
+                    <img src={IncludeDemo} className='md:w-[35%] md:ml-14 md:h-[50%] mt-10 ' />
+
+                </div>
+
+             
+            </div>
+
+            <div className=" ml-16 mr-16 mt-28 h-px bg-gray-700 my-4 sm:ml-24 sm:mr-24"></div>
+
 
 
             <div id='neuro-ex' className='mb-14'>
@@ -36,7 +102,6 @@ export default function Experience() {
                         <div className='flex items-center gap-4'>
                             <img src={Neuro} className='w-[70px]' />
                             <h1 className='text-white  text-2xl sm:text-4xl font-bold '>Neurotech@Davis</h1>
-
                         </div>
                         <div className='flex items-center justify-between mt-4'> <h2 className='font-bold gradient-text-blue text-xl' >Project Manger</h2> <h3 className='text-gray-600'> June 2024 - Present</h3> </div>
 
@@ -45,15 +110,9 @@ export default function Experience() {
                             <a href='https://neurotechdavis.com' target='_blank'>  <li className='web-link'>Vist the website 💙</li> </a>
                         </ul>
 
-
-
-
-
                     </div>
 
                     <img src={Neuroweb} className='md:w-[35%] md:ml-14 md:h-[50%] ' />
-
-
 
                 </div>
 
@@ -61,16 +120,11 @@ export default function Experience() {
 
                     <div className='md:w-[50%]'>
 
-
                         <div className='flex items-center justify-between mt-10 sm:mt-4'> <h2 className='font-bold gradient-text-blue text-xl' >Project Member</h2> <h3 className='text-gray-600'> Oct 2023 - June 2024</h3> </div>
 
                         <ul className='ex-ul ml-10 text-gray-400'>
                             <li>Contributed to the development of a brain-computer interface that detected eye blinks via EEG signals, collecting EMG/EEG data and implementing a real-time random forest classifier with 86% accuracy; presented at the 2024 NeurotechX Conference, showcasing neural signal-controlled devices and advancements in assistive technology.</li>
                         </ul>
-
-
-
-
 
                     </div>
 
@@ -95,35 +149,14 @@ export default function Experience() {
                         <ul className='ex-ul ml-10 text-gray-400'>
                             <li>
                                 Contributed to the development of SafeHer, a website promoting women's issues and making educational resources more accessible. Collaborated with a cross-functional team to create resource and data visualization components, ensuring cohesive design and functionality.</li>
-                            <li>Website currently under maintance ⚒️</li>
+                          
                         </ul>
-
-
-
-
-
                     </div>
 
                     <img src={D3cImg} className='md:w-[35%] md:ml-14 mt-5' />
 
-
-
                 </div>
-
-
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
         </div >
     )
 }

@@ -7,8 +7,8 @@ export default function About() {
     <div id='about' className='flex  flex-col items-center mx-10 md:flex-row  md:gap-10 lg:gap-20 mb-20'>
       <div id='about-text md:max-w-[50%] '>
         <h1 className='text-white  font-bold  mt-24 text-5xl sm:text-4xl lg:text-7xl'>a bit about me</h1>
-        <p className='text-white mt-6 text-base'>Hi, I'm Kylie Lallak, a computer science student at UC Davis, originally from Minnesota. I began my journey at UC Davis in the fall of 2022, driven by my passion for problem-solving and creating impactful projects. I’m currently an aspiring full stack web developer, with significant experience in front-end development, and I’m actively working on mastering the back-end to complete my skill set. </p>
-        <p className='text-white mt-6 text-base'>Outside of my professional development, I love being involved in my campus community. I’m happiest when meeting new people and contributing to meaningful activities. Currently, I’m part of Neurotech@Davis, Data Driven Change, and Alpha Phi Omega, a professional service fraternity. </p>
+        <p className='text-gray-300 mt-6 text-base'>Hi, I'm Kylie Lallak, a computer science student at UC Davis, originally from Minnesota. I began my journey at UC Davis in the fall of 2022, driven by my passion for problem-solving and creating impactful projects. I’m currently intrested in all things <span className='font-bold text-base gradient-text-blue'> SWE, UI Design</span> and <span className='font-bold text-base gradient-text-blue'> product.</span> </p>
+        <p className='text-gray-300 mt-6 text-base'>Outside of my professional development, I love being involved in my campus community. I’m happiest when meeting new people and contributing to meaningful activities. I’m currently seeking opportunities to gain hands-on experience in <span className='font-bold text-base gradient-text-blue'> Product Management</span> & <span className='font-bold text-base gradient-text-blue'n> Design</span> </p>
         <a href="#projects" className="btn btn-white btn-animate text-sm mt-6 mb-6">See my work</a>
       </div>
 

@@ -4,8 +4,16 @@ import Personal from '../../public/images/personal.png';
 import Photo from '../../public/images/photo.png';
 import First from '../../public/images/first.png'
 import NTech from '../../public/images/ntech.png';
+import HackDavis25 from '../../public/images/hackdavis25.png';
 
 const ProjectsData = [
+     {
+        key: 7,
+        name: 'Clarity',
+        desc: 'My submisson for HackDaivs25',
+        image: HackDavis25,
+        link: 'https://www.youtube.com/watch?v=nChSVWKCsss'
+    },
     {
         key: 1,
         name: 'Student Org Website',
@@ -52,7 +60,9 @@ const ProjectsData = [
         image: First,
         link: 'https://fake-company-career-site.vercel.app/'
 
-    }
+    },
+    
+
 
 ];
 
