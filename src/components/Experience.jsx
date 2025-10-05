@@ -144,7 +144,7 @@ export default function Experience() {
                             <h1 className='text-white  text-2xl sm:text-4xl  font-bold '>SafeHer</h1>
 
                         </div>
-                        <div className='flex items-center justify-between mt-4'> <h2 className='font-bold gradient-text-blue text-xl' >Web Developer</h2> <h3 className='text-gray-600'> April 2024 - Present</h3> </div>
+                        <div className='flex items-center justify-between mt-4'> <h2 className='font-bold gradient-text-blue text-xl' >Web Developer</h2> <h3 className='text-gray-600'> April 2024 - June 2024</h3> </div>
 
                         <ul className='ex-ul ml-10 text-gray-400'>
                             <li>
